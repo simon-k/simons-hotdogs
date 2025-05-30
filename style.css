@@ -1,0 +1,163 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff8f0;
+    color: #333;
+}
+
+header {
+    background: #d7263d;
+    color: #fff;
+    padding: 1.5rem 0 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-bottom: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ffb400;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(215,38,61,0.08);
+}
+
+.welcome, .about, .menu {
+    text-align: center;
+}
+
+.hero-img, .about-img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 12px;
+    margin: 2rem 0 0 0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.hotdog-list {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0 0;
+}
+
+.hotdog-list li {
+    background: #ffe3e3;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(215,38,61,0.05);
+    text-align: left;
+}
+
+.hotdog-list h3 {
+    margin: 0 0 0.5rem 0;
+    color: #d7263d;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+    background: #222;
+    color: #fff;
+    margin-top: 2rem;
+    border-radius: 0 0 16px 16px;
+    font-size: 1rem;
+}
+
+.banner {
+    background: #1a0d0d;
+    padding: 2.5rem 0 1.5rem 0;
+    box-shadow: 0 2px 16px rgba(215,38,61,0.15);
+    border-bottom: 4px solid #d7263d;
+    position: relative;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.neon-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.neon-main {
+    font-family: 'Pacifico', cursive, sans-serif;
+    font-size: 3.2rem;
+    color: #ffef8a;
+    text-shadow:
+        0 0 8px #ffef8a,
+        0 0 16px #ffb400,
+        0 0 32px #ffb400,
+        0 0 48px #d7263d;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.neon-sub {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.1rem;
+    color: #ffb400;
+    text-shadow:
+        0 0 6px #ffb400,
+        0 0 18px #ffb400,
+        0 0 32px #d7263d;
+    letter-spacing: 6px;
+    font-weight: 700;
+    margin-top: -0.5rem;
+}
+
+.banner nav {
+    margin-top: 0.5rem;
+}
+
+.banner nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+    letter-spacing: 1px;
+}
+
+.banner nav a:hover {
+    color: #ffb400;
+}
+
+.img-caption {
+    text-align: center;
+    font-size: 1.05rem;
+    color: #a67c52;
+    margin-top: 0.5rem;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
