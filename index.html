@@ -18,5 +18,82 @@
     <footer>
         <p>&copy; 2025 Simons Hotdogs. All rights reserved.</p>
     </footer>
+    
+    <!-- Chat Button and Window -->
+    <div class="chat-button" onclick="toggleChat()">
+        <span class="chat-icon">💬</span>
+    </div>
+    
+    <div class="chat-window" id="chatWindow">
+        <div class="chat-header">
+            <h3>Chat with Simon's</h3>
+            <button class="chat-close" onclick="toggleChat()">&times;</button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="chat-message bot-message">
+                <p>Hi! Welcome to Simon's Hotdogs! How can I help you today? 🌭</p>
+            </div>
+        </div>
+        <div class="chat-input-container">
+            <input type="text" id="chatInput" placeholder="Type your message..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    
+    <script>
+        function toggleChat() {
+            const chatWindow = document.getElementById('chatWindow');
+            chatWindow.classList.toggle('chat-open');
+        }
+        
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+        
+        function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const messages = document.getElementById('chatMessages');
+            const message = input.value.trim();
+            
+            if (message) {
+                // Add user message
+                const userDiv = document.createElement('div');
+                userDiv.className = 'chat-message user-message';
+                userDiv.innerHTML = `<p>${message}</p>`;
+                messages.appendChild(userDiv);
+                
+                // Clear input
+                input.value = '';
+                
+                // Add bot response after a short delay
+                setTimeout(() => {
+                    const botDiv = document.createElement('div');
+                    botDiv.className = 'chat-message bot-message';
+                    botDiv.innerHTML = `<p>${getBotResponse(message)}</p>`;
+                    messages.appendChild(botDiv);
+                    
+                    // Scroll to bottom
+                    messages.scrollTop = messages.scrollHeight;
+                }, 1000);
+                
+                // Scroll to bottom
+                messages.scrollTop = messages.scrollHeight;
+            }
+        }
+        
+        function getBotResponse(userMessage) {
+            const responses = [
+                "Thanks for your message! Our delicious hotdogs are waiting for you! 🌭",
+                "We'd love to serve you our famous hotdogs! Check out our menu for all the tasty options.",
+                "Great question! Our hotdogs are made with the finest ingredients and lots of love!",
+                "Come visit us for the best hotdog experience in town! We're open daily.",
+                "That sounds delicious! Have you tried our signature hotdog yet?",
+                "We appreciate your interest! Our team is here to make your hotdog dreams come true!"
+            ];
+            return responses[Math.floor(Math.random() * responses.length)];
+        }
+    </script>
 </body>
 </html>
