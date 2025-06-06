@@ -285,6 +285,24 @@ footer {
     border-bottom-left-radius: 4px;
 }
 
+.bot-message.thinking p {
+    background: #f0f0f0;
+    color: #666;
+    font-style: italic;
+}
+
+.bot-message a {
+    color: #d7263d;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.bot-message a:hover {
+    color: #b01e34;
+    text-decoration: underline;
+}
+
 .chat-input-container {
     padding: 16px;
     background: white;
