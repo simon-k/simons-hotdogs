@@ -14,7 +14,7 @@
       <title>The Classic Simon</title>
       <link>https://simon-k.github.io/simons-hotdogs/menu.html#the_classic_simon</link>
       <description>All-beef hotdog, ketchup, mustard, relish, and onions on a toasted bun. Price: $10.99</description>
-      <category>Food</category>
+      <category>MenuItem</category>
       <guid>https://simon-k.github.io/simons-hotdogs/menu.html#the_classic_simon</guid>
       <pubDate>Thu, 05 Jun 2025 12:00:00 GMT</pubDate>
     </item>
@@ -23,7 +23,7 @@
       <title>The Spicy Texan</title>
       <link>https://simon-k.github.io/simons-hotdogs/menu.html#the_spicy_texan</link>
       <description>Jalapeño sausage, spicy mayo, crispy onions, and pickled jalapeños. Price: $10.99</description>
-      <category>Food</category>
+      <category>MenuItem</category>
       <guid>https://simon-k.github.io/simons-hotdogs/menu.html#the_spicy_texan</guid>
       <pubDate>Thu, 05 Jun 2025 12:00:00 GMT</pubDate>
     </item>
@@ -32,7 +32,7 @@
       <title>The Veggie Delight</title>
       <link>https://simon-k.github.io/simons-hotdogs/menu.html#the_veggie_delight</link>
       <description>Grilled veggie dog, avocado, tomato salsa, and microgreens. Price: $10.99</description>
-      <category>Food</category>
+      <category>MenuItem</category>
       <guid>https://simon-k.github.io/simons-hotdogs/menu.html#the_veggie_delight</guid>
       <pubDate>Thu, 05 Jun 2025 12:00:00 GMT</pubDate>
     </item>
@@ -41,7 +41,7 @@
       <title>The Euro Dog</title>
       <link>https://simon-k.github.io/simons-hotdogs/menu.html#the_euro_dog</link>
       <description>Bratwurst, sauerkraut, Dijon mustard, and Swiss cheese. Price: $12.99</description>
-      <category>Food</category>
+      <category>MenuItem</category>
       <guid>https://simon-k.github.io/simons-hotdogs/menu.html#the_euro_dog</guid>
       <pubDate>Thu, 05 Jun 2025 12:00:00 GMT</pubDate>
     </item>
@@ -50,7 +50,7 @@
       <title>The Sweet &amp; Savory</title>
       <link>https://simon-k.github.io/simons-hotdogs/menu.html#the_sweet_savory</link>
       <description>Bacon-wrapped dog, pineapple salsa, and teriyaki glaze. Price: $12.99</description>
-      <category>Food</category>
+      <category>MenuItem</category>
       <guid>https://simon-k.github.io/simons-hotdogs/menu.html#the_sweet_savory</guid>
       <pubDate>Thu, 05 Jun 2025 12:00:00 GMT</pubDate>
     </item>
@@ -59,7 +59,7 @@
       <title>The Clucky Crunch</title>
       <link>https://simon-k.github.io/simons-hotdogs/menu.html#the_clucky_crunch</link>
       <description>Crispy chicken nuggets, honey mustard, lettuce, pickles, and cheddar cheese on a toasted bun. Price: $15.99</description>
-      <category>Food</category>
+      <category>MenuItem</category>
       <guid>https://simon-k.github.io/simons-hotdogs/menu.html#the_clucky_crunch</guid>
       <pubDate>Thu, 05 Jun 2025 12:00:00 GMT</pubDate>
     </item>
