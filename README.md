@@ -1,14 +1,10 @@
 # simons-hotdogs
 Demo website for a hotdog stand
 
-See the website at https://simon-k.github.io/simons-hotdogs/
+See the public website at https://simon-k.github.io/simons-hotdogs/
 
 
-
-
-
-
-# Running website and the NLWeb server
+## Running website and the NLWeb server locally
 
 1. Follow the guide here: https://github.com/microsoft/NLWeb/blob/main/docs/nlweb-hello-world.md
 
