@@ -12,7 +12,7 @@ See the public website at https://simon-k.github.io/simons-hotdogs/
 
     Modify the `WebServer.py`to disable the CORS check. Comment line 131: `if CONFIG.server.enable_cors and 'Origin' in headers:`. This is needed because we want to run the hotdog page on port 8001.
 
-2. Run the NLWeb REWST API from the NLWeb repo `python app-file.py`. This will serve the API on localhost:8000
+2. Run the NLWeb REST API from the NLWeb repo `python app-file.py`. This will serve the API on localhost:8000
 
 3. Start the webserver from the simons-hotdogs repo like this: `python3 -m http.server 8001`
 
