@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Simon's Hotdogs",
+  "description": "Serving the fanciest hotdogs in town. Come taste the tradition and creativity in every bite!",
+  "url": "https://simon-k.github.io/simons-hotdogs/",
+  "hasMenu": {
+    "@type": "Menu",
+    "name": "Simon's Hotdogs Menu",
+    "hasMenuSection": {
+      "@type": "MenuSection",
+      "name": "Hotdogs",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "@id": "https://simon-k.github.io/simons-hotdogs/menu.html#the_classic_simon",
+          "name": "The Classic Simon",
+          "description": "All-beef hotdog, ketchup, mustard, relish, and onions on a toasted bun.",
+          "url": "https://simon-k.github.io/simons-hotdogs/menu.html#the_classic_simon",
+          "offers": {
+            "@type": "Offer",
+            "price": "10.99",
+            "priceCurrency": "USD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "@id": "https://simon-k.github.io/simons-hotdogs/menu.html#the_spicy_texan",
+          "name": "The Spicy Texan",
+          "description": "Jalapeño sausage, spicy mayo, crispy onions, and pickled jalapeños.",
+          "url": "https://simon-k.github.io/simons-hotdogs/menu.html#the_spicy_texan",
+          "offers": {
+            "@type": "Offer",
+            "price": "10.99",
+            "priceCurrency": "USD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "@id": "https://simon-k.github.io/simons-hotdogs/menu.html#the_veggie_delight",
+          "name": "The Veggie Delight",
+          "description": "Grilled veggie dog, avocado, tomato salsa, and microgreens.",
+          "url": "https://simon-k.github.io/simons-hotdogs/menu.html#the_veggie_delight",
+          "offers": {
+            "@type": "Offer",
+            "price": "10.99",
+            "priceCurrency": "USD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "@id": "https://simon-k.github.io/simons-hotdogs/menu.html#the_euro_dog",
+          "name": "The Euro Dog",
+          "description": "Bratwurst, sauerkraut, Dijon mustard, and Swiss cheese.",
+          "url": "https://simon-k.github.io/simons-hotdogs/menu.html#the_euro_dog",
+          "offers": {
+            "@type": "Offer",
+            "price": "12.99",
+            "priceCurrency": "USD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "@id": "https://simon-k.github.io/simons-hotdogs/menu.html#the_sweet_savory",
+          "name": "The Sweet & Savory",
+          "description": "Bacon-wrapped dog, pineapple salsa, and teriyaki glaze.",
+          "url": "https://simon-k.github.io/simons-hotdogs/menu.html#the_sweet_savory",
+          "offers": {
+            "@type": "Offer",
+            "price": "12.99",
+            "priceCurrency": "USD"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "@id": "https://simon-k.github.io/simons-hotdogs/menu.html#the_clucky_crunch",
+          "name": "The Clucky Crunch",
+          "description": "Crispy chicken nuggets, honey mustard, lettuce, pickles, and cheddar cheese on a toasted bun.",
+          "url": "https://simon-k.github.io/simons-hotdogs/menu.html#the_clucky_crunch",
+          "offers": {
+            "@type": "Offer",
+            "price": "15.99",
+            "priceCurrency": "USD"
+          }
+        }
+      ]
+    }
+  }
+}
