@@ -82,6 +82,18 @@
             "price": "15.99",
             "priceCurrency": "USD"
           }
+        },
+        {
+          "@type": "MenuItem",
+          "@id": "https://simon-k.github.io/simons-hotdogs/menu.html#the_chili_cheese_supreme",
+          "name": "The Chili Cheese Supreme",
+          "description": "Premium all-beef hotdog topped with our signature slow-cooked chili con carne, aged sharp cheddar cheese, crispy onions, fresh jalapeños, and a dollop of sour cream on an artisan brioche bun.",
+          "url": "https://simon-k.github.io/simons-hotdogs/menu.html#the_chili_cheese_supreme",
+          "offers": {
+            "@type": "Offer",
+            "price": "29.00",
+            "priceCurrency": "USD"
+          }
         }
       ]
     }

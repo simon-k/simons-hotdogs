@@ -64,5 +64,14 @@
       <pubDate>Thu, 05 Jun 2025 12:00:00 GMT</pubDate>
     </item>
     
+    <item>
+      <title>The Chili Cheese Supreme</title>
+      <link>https://simon-k.github.io/simons-hotdogs/menu.html#the_chili_cheese_supreme</link>
+      <description>Premium all-beef hotdog topped with our signature slow-cooked chili con carne, aged sharp cheddar cheese, crispy onions, fresh jalapeños, and a dollop of sour cream on an artisan brioche bun. Price: $29.00</description>
+      <category>MenuItem</category>
+      <guid>https://simon-k.github.io/simons-hotdogs/menu.html#the_chili_cheese_supreme</guid>
+      <pubDate>Thu, 05 Jun 2025 12:00:00 GMT</pubDate>
+    </item>
+    
   </channel>
 </rss>
