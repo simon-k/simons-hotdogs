@@ -46,7 +46,7 @@ main {
     box-shadow: 0 4px 24px rgba(215,38,61,0.08);
 }
 
-.welcome, .about, .menu {
+.welcome, .about, .menu, .hours {
     text-align: center;
 }
 
@@ -370,4 +370,43 @@ footer {
         top: 15px;
         right: 15px;
     }
+}
+
+/* Opening Hours Styles */
+.hours-table {
+    max-width: 400px;
+    margin: 2rem auto;
+    background: #ffe3e3;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(215,38,61,0.05);
+}
+
+.hours-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(215,38,61,0.1);
+}
+
+.hours-row:last-child {
+    border-bottom: none;
+}
+
+.hours-row .day {
+    font-weight: 600;
+    color: #d7263d;
+    font-size: 1.1rem;
+}
+
+.hours-row .time {
+    font-weight: 500;
+    color: #333;
+    font-size: 1rem;
+}
+
+.hours-row .time.closed {
+    color: #888;
+    font-style: italic;
 }
