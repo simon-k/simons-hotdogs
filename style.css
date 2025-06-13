@@ -50,6 +50,30 @@ main {
     text-align: center;
 }
 
+.customer-review {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #ffe3e3;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(215,38,61,0.05);
+    border-left: 4px solid #d7263d;
+}
+
+.customer-review .stars {
+    font-size: 1.5rem;
+    color: #ffb400;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.customer-review .review-text {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0;
+    line-height: 1.5;
+}
+
 .hero-img, .about-img {
     width: 80%;
     max-width: 400px;
